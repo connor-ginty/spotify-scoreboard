@@ -1,0 +1,13 @@
+{
+  "tasks": {
+    "dev": "deno run --watch main.ts",
+    "main": "deno run --allow-all --env-file=.env main.ts",
+    "server-up": "deno serve --allow-net Main.ts"
+  },
+  "imports": {
+    "@std/assert": "jsr:@std/assert@1",
+    "axios": "npm:axios@^1.7.9",
+    "express": "npm:express@^4.21.2",
+    "ts-mockito": "npm:ts-mockito@^2.6.1"
+  }
+}
