@@ -4,6 +4,7 @@
     "jsr:@std/assert@1": "1.0.9",
     "jsr:@std/internal@^1.0.5": "1.0.5",
     "npm:@types/node@*": "22.5.4",
+    "npm:axios@*": "1.7.9",
     "npm:axios@^1.7.9": "1.7.9",
     "npm:express@*": "4.21.2",
     "npm:express@^4.21.2": "4.21.2",
